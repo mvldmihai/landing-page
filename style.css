@@ -1,3 +1,7 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -66,7 +70,7 @@ p {
     align-items: center;
     flex: 0 1 auto;
     margin-right: 150px;
-    padding: 100px 280px 100px 260px;
+    padding: 100px 280px 100px 250px;
 }
 
 .left-box {
@@ -75,4 +79,46 @@ p {
     flex: 0 1 400px;
     margin-right: 60px;
     margin-left: 110px;
+}
+
+.upper-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.big-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 130px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 730px;
+    flex: 1;
+}
+
+.box {
+    border: solid #3882F6;
+    border-radius: 8px;
+    width: 170px;
+    height: 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.big-box p {
+    margin-top: 6px;
+    width: 150px;
+    text-align: center;
 }
