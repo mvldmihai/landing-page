@@ -186,3 +186,15 @@ p {
     color: white;
     font-weight: 900;
 }
+
+.footer {
+    padding: 40px;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
