@@ -37,13 +37,14 @@ p {
 .top {
     display: flex;
     background-color: #1F2937;
-    justify-content: center;
-    padding: 76px 200px 76px 230px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 200px 150px 225px;
 }
 
 .hero-main {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 1000;
     color: #F9FAF8
 }
 
@@ -54,8 +55,9 @@ p {
 
 .top-button {
     background-color: #3882F6;
+    border-color: transparent;
     color:#F9FAF8;
-    width: 110px;
+    width: 120px;
     font-weight: bold;
     padding: 6px;
     border-radius: 8px;
@@ -68,17 +70,18 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 1 auto;
-    margin-right: 140px;
-    padding: 100px 280px 100px 250px;
+    flex: 0 1 450px;
+    margin-right: 70px;
+    /* padding: 100px 280px 100px 250px; */
+    padding: 120px 100px 120px 100px;
 }
 
 .left-box {
     display: flex;
     flex-direction: column;
-    flex: 0 1 400px;
-    margin-right: 60px;
-    margin-left: 110px;
+    flex: 0 1 450px;
+    /* margin-right: 50px; */
+    margin-left: 40px;
 }
 
 .upper-middle {
